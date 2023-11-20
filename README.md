@@ -1,16 +1,46 @@
-# quizz_flutter
 
-A new Flutter project.
+# Quizz Flutter
 
-## Getting Started
+Welcome to the Quizz Flutter application! This app is designed to provide a fun programming quiz experience, developed using Flutter.
 
-This project is a starting point for a Flutter application.
+## Overview
 
-A few resources to get you started if this is your first Flutter project:
+The app allows users to test their programming knowledge through a series of questions and answers. The questions revolve around different programming languages, concepts, and paradigms.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Interactive Quiz:** Answer a series of programming questions.
+- **Statistics:** Review your results and progress.
+- **User-Friendly Interface:** Simple and user-friendly design with Flutter.
+
+## Usage
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/DMV242/quizz_flutter.git
+    ```
+
+2. Open the project in a code editor.
+
+3. Run the application:
+    ```bash
+    flutter run
+    ```
+
+## Configuration
+
+The current version of the application doesn't include a timer feature for quizzes. It focuses on the question-and-answer interaction.
+
+## Author
+
+- User: DMV242
+
+## Contributions
+
+Contributions are welcome! If you'd like to contribute to this project, feel free to open a pull request.
+
+## Notes
+
+Please feel free to report issues or make suggestions by opening an issue.
+
+---

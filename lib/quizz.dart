@@ -68,7 +68,7 @@ class QuizzState extends State<Quizz>{
     );
   }
   void checkAnswerAndShowDialog({required bool ans,required int index}){
-    if(index == 9){
+    if(index == Data.listeQuestions.length-1){
       showMyDialog(simpleAlert("C'est fini"));
       return;
     }
@@ -94,6 +94,8 @@ class QuizzState extends State<Quizz>{
         Text(explication,textAlign: TextAlign.center,),
         Container(
           child: Image.asset(ImagePath),
+          height: MediaQuery.of(context).size.height/3,
+          width: MediaQuery.of(context).size.width/3,
         ),
         SimpleDialogOption(
           onPressed:(){
